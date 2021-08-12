@@ -24,6 +24,24 @@
 | [PC-Dooring](https://github.com/MrXujiang/pc-Dooring)   | 网格式拖拽搭建PC端页面.        |
 | [DooringX](https://github.com/H5-Dooring/dooringx)   | 快速高效搭建可视化拖拽平台.        |
 
+### Features
+    - [x] 基础图形组件
+    - [x] 组件控制器
+    - [x] 保存图片
+    - [x] 保存图片模版
+    - [x] 图形属性编辑器
+    - [x] 画布控制
+    - [x] 模版列表, 一键导入素材模版
+
+### Todo
+    - [x] 撤销重做
+    - [x] 画布背景设置
+    - [x] 丰富图形组件库
+    - [x] 模块化界面
+    - [x] 解析PSD
+
+如果你对这个项目感兴趣, 欢迎提pr或者联系我, 一起让它变的更强大.
+
 ## Install
 
 ```sh
