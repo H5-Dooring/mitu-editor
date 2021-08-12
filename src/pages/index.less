@@ -1,0 +1,151 @@
+.wrap{
+  background-color: #f0f0f0;
+  .header {
+    padding: 10px 60px;
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+    .goBack {
+      cursor: pointer;
+    }
+    .logo {
+      flex: 1;
+      font-weight: bold;
+      text-align: center;
+    }
+    .rightArea {
+
+    }
+  }
+  .contentWrap {
+    position: relative;
+    display: flex;
+    width: 1150px;
+    margin: 20px auto;
+    min-height: calc(100vh - 120px);
+    .tplWrap {
+      width: 260px;
+      min-height: 360px;
+      background-color: #fff;
+      .tplItem {
+        width: 100%;
+        border: 1px solid transparent;
+        cursor: pointer;
+        &:hover {
+          border-color: #06c;
+        }
+        img {
+          width: 100%;
+        }
+        div {
+          text-align: center;
+          color: #808080;
+        }
+      }
+    }
+    .canvasWrap {
+      margin: 0 20px;
+      width: 600px;
+      .controlWrap {
+        margin-bottom: 20px;
+        padding: 10px;
+        display: flex;
+        background-color: #fff;
+        .btn {
+          margin-right: 10px;
+        }
+        .leftArea {
+
+        }
+        .rightArea {
+          margin-left: auto;
+        }
+      }
+      canvas {
+        width: 400px;
+        height: 400px;
+        // background-color: #fff;
+      }
+    }
+    .simpleTit {
+      font-size: 14px;
+      color: #808080;
+      text-align: center;
+      padding: 5px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .panelWrap {
+      position: absolute;
+      right: 0;
+      width: 220px;
+      height: 100%;
+      background-color: #fff;
+      .attrPanel {
+        padding: 12px;
+        margin-bottom: 20px;
+        .label {
+          display: inline-block;
+          width: 80px;
+          margin-bottom: 10px;
+        }
+      }
+      .shapeWrap {
+        padding: 6px;
+        .shape {
+          display: inline-block;
+          width: 69px;
+          text-align: center;
+          font-size: 36px;
+          color: #949494;
+          cursor: pointer;
+          border: 1px solid transparent;
+          transition: border .3s;
+          &:hover {
+            border-color: #f0f0f0;
+          }
+          .circle {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            border:3px solid #949494;
+            border-radius: 50%;
+            vertical-align: -4px;
+          }
+          .tringle {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-color: transparent #949494 #949494 transparent;
+            border-width: 18px;
+            border-style: solid;
+            vertical-align: -4px;
+          }
+          .img {
+            font-size: 36px;
+            color: #949494;
+          }
+          .mask {
+            display: inline-block;
+            width: 40px;
+            vertical-align: 3px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+      .operationArea {
+        margin-top: 10px;
+        padding: 10px;
+        .control {
+          margin-bottom: 12px;
+        }
+      }
+    }
+  }
+  footer {
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+  }
+}
