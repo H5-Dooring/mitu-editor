@@ -12,6 +12,8 @@
 
 ### 🏠 [Homepage](https://github.com/H5-Dooring/mitu-editor#readme)
 
+### 国内加速版: [Mitu](https://gitee.com/zhonxue/mitu-editor)
+
 ### ✨ [Demo](http://h5.dooring.cn/mitu)
 
 ### More Production
